@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<UIAddon>
+	<AutoStart>true</AutoStart>
+	<Forms>
+		<Item>
+			<Form href="Widgets/MainForm.(WidgetForm).xdb#xpointer(/WidgetForm)" />
+			<Id>Main</Id>
+		</Item>
+	</Forms>
+	<MainFormId>Main</MainFormId>
+	<Name>BuffUI by Pfui</Name>
+	<localizedNameFileRef href="name.txt"/>
+	<localizedDescFileRef href="desc.txt"/>
+	<ScriptFileRefs>
+		<Item href="Config.txt" />
+		<Item href="Scripts/LibDnD.lua" />
+		<Item href="Scripts/LibGS.lua" />
+		<Item href="Scripts/Utils.lua" />
+		<Item href="/Mods/SampleCommon/SampleAddonBase.lua" />
+		<Item href="Scripts/Chat.lua" />
+		<Item href="Scripts/BuffUI.lua" />
+
+	</ScriptFileRefs>
+	<author>Pfui</author>
+
+</UIAddon>

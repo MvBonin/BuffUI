@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+	<Name>EditPanel</Name>
+	<Priority>30</Priority>
+	<Children>
+	<Item href="EditControl.(WidgetEditLine).xdb#xpointer(/WidgetEditLine)" />
+	
+	</Children>
+		<BackLayer href="Textures/EditLineBack.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_CENTER</Align>
+			<Size>360</Size>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Pos>400</Pos>
+			<Size>35</Size>
+		</Y>
+	</Placement>
+	<Visible>true</Visible>
+</WidgetPanel>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+	<Name>BuffPanel</Name>
+	<Priority>90000</Priority>
+	<Children>
+	<Item href="CloseBtn/ShowHideBtn.(WidgetButton).xdb#xpointer(/WidgetBtton)" />
+	<Item href="Title.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+	<Item href="Modes.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+	<Item href="Modes2.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+	<Item href="Modes3.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+	<Item href="Modes4.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+	<Item href="Modes5.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+	<Item href="BuffItem.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+	<Item href="../Credits.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+	</Children>
+		<BackLayer href="../Textures/MainFrame.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Pos>200</Pos>
+			<Size>1215</Size>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Pos>200</Pos>
+			<Size>340</Size>
+		</Y>
+	</Placement>
+	<Visible>false</Visible>
+</WidgetPanel>

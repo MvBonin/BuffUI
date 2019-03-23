@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+	<Name>CP3</Name>
+	<Priority>30</Priority>
+	<Children>
+	<Item href="CheckText.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+	<Item href="CheckBox/CheckBox.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+	</Children>
+		
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Pos>10</Pos>
+			<Size>120</Size>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Pos>60</Pos>
+			<Size>40</Size>
+		</Y>
+	</Placement>
+		<TransparentInput>false</TransparentInput>
+</WidgetPanel>

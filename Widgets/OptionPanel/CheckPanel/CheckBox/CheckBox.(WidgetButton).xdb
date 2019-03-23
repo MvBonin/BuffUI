@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+  <Name>CheckBox</Name>
+  <Priority>90</Priority>
+  <Placement>
+    <X>
+	<Align>WIDGET_ALIGN_CENTER</Align>
+      <Size>20</Size>
+    </X>
+    <Y>
+      <Size>20</Size>
+    </Y>
+  </Placement>
+  <IgnoreDblClick>true</IgnoreDblClick>
+  <Variants>
+    <Item>
+	   <LayerHighlight href="CheckBoxStoneHighlight.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+		<StateNormal>
+			<LayerMain href="CheckBoxStone.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+		</StateNormal>
+		<StatePushed>
+			<LayerMain href="CheckBoxStoneChecked.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+		</StatePushed>
+		<ReactionOnUp>true</ReactionOnUp>
+		<Reaction>click_checkbox</Reaction>
+    </Item>
+    <Item>
+	   <LayerHighlight href="CheckBoxStoneHighlight.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+		<StateNormal>
+			<LayerMain href="CheckBoxStoneChecked.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+		</StateNormal>      
+		<ReactionOnUp>true</ReactionOnUp>
+		<Reaction>click_checkbox</Reaction>
+    </Item>
+  </Variants>
+</WidgetButton>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+	<Name>DNDPanel</Name>
+	<Priority>0</Priority>
+	<Children>
+		<Item href="DND.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+	</Children>
+	<BackLayer href="Textures/Frame.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+	<Placement>
+		<X>
+			<Pos>200</Pos>
+			<Size>220</Size>
+		</X>
+		<Y>
+			<Pos>200</Pos>
+			<Size>20</Size>
+		</Y>
+	</Placement>
+	<TransparentInput>false</TransparentInput>
+	<PickChildrenOnly>false</PickChildrenOnly>
+</WidgetPanel>

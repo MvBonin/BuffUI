@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetForm>
+	<Name>BuffUI</Name>
+	<Priority>4410</Priority>
+	<Children>
+		<Item href="BuffInternal.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+		<Item href="ContainerBar.(WidgetPanel).xdb#xpointer.(/WidgetPanel)"/>
+		<Item href="Target.(WidgetPanel).xdb#xpointer.(/WidgetPanel)"/>
+		<Item href="OptionPanel/OptionPanel.(WidgetPanel).xdb#xpointer.(/WidgetPanel)"/>
+		<Item href="OpenCloseBtn/ShowHideBtn.(WidgetButton).xdb#xpointer.(/WidgetButton)"/>
+		<Item href="OptionPanel/BuffPanel/BuffPanel.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+		<Item href="GSInternal.(WidgetPanel).xdb#xpointer.(/WidgetPanel)"/>
+		<Item href="PfeilPanel.(WidgetPanel).xdb#xpointer.(/WidgetPanel)" />
+		<Item href="Panel.(WidgetPanel).xdb#xpointer.(/WidgetPanel)"/>
+		<Item href="DNDPanel.(WidgetPanel).xdb#xpointer.(/WidgetPanel)"/>
+	</Children>
+	<BackLayer href="" />
+	<FrontLayer href="" />
+	<Placement>
+		<QuantumScale>false</QuantumScale>
+		<X>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+		</Y>
+	</Placement>
+	<Visible>true</Visible>
+	<Enabled>true</Enabled>
+	<TransparentInput>false</TransparentInput>
+	<PickChildrenOnly>true</PickChildrenOnly>
+</WidgetForm>

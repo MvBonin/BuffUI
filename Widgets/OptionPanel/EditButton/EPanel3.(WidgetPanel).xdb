@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+	<Name>EPanel3</Name>
+	<Priority>30</Priority>
+	<Children>
+	<Item href="EText.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+	<Item href="EditBtn3.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+	</Children>
+  <Placement>
+   <X>
+	<Align>WIDGET_ALIGN_HIGH</Align>
+      <Size>115</Size>
+	  <HighPos>20</HighPos>
+	  <Pos>20</Pos>
+    </X>
+    <Y>
+	<Align>WIDGET_ALIGN_LOW</Align>
+      <Size>30</Size>
+	  <Pos>440</Pos>
+    </Y>
+  </Placement>
+  
+	</Placement>
+		<TransparentInput>false</TransparentInput>
+</WidgetPanel>

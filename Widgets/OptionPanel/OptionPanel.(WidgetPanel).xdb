@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+	<Name>OptionPanel</Name>
+	<Priority>30</Priority>
+	<Children>
+	<Item href="Title.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+	<Item href="Modes.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+	<Item href="Modes2.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+	<Item href="Modes3.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+	<Item href="Modes4.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+	<Item href="Modes5.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+	<Item href="StatusText.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+	<Item href="CheckPanel/CP1.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+	<Item href="CheckPanel/CP2.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+	<Item href="CheckPanel/CP3.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+	<Item href="CheckPanel/CP4.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+	<Item href="CheckPanel/CP5.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+	<Item href="CheckPanel/CP6.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+	<Item href="CheckPanel/CP7.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+	<Item href="CheckPanel/CP8.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+	<Item href="EditControl/EditPanel.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+	<Item href="EditButton/EPanel1.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+	<Item href="EditButton/EPanel2.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+	<Item href="EditButton/EPanel3.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+	<Item href="EditButton/EPanel4.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+	<Item href="EditButton/EPanel5.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+	<Item href="CloseBtn/ShowHideBtn.(WidgetButton).xdb#xpointer(/WidgetBtton)" />
+	<Item href="BPPanel.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+	<Item href="Credits.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+	
+	</Children>
+		<BackLayer href="Textures/MainFrame.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Pos>200</Pos>
+			<Size>400</Size>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Pos>200</Pos>
+			<Size>555</Size>
+		</Y>
+	</Placement>
+	<Visible>false</Visible>
+</WidgetPanel>

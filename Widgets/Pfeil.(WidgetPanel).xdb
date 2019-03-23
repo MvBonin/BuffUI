@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+	<Name>Pfeil</Name>
+	<Priority>0</Priority>
+	<BackLayer href="Textures/Pfeil.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+	
+	<Placement>
+		<X>
+			<Pos>0</Pos>
+			<Size>35</Size>
+		</X>
+		<Y>
+			<Pos>0</Pos>
+			<Size>35</Size>
+		</Y>
+	</Placement>
+	<TransparentInput>false</TransparentInput>
+	<PickChildrenOnly>false</PickChildrenOnly>
+	<clipContent>false</clipContent>
+</WidgetPanel>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+	<Name>PfeilPanel</Name>
+	<Priority>0</Priority>
+	<Children>
+		<Item href="Pfeil.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+		<Item href="Dist.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+	</Children>
+	<Placement>
+		<X>
+			<Pos>0</Pos>
+			<Size>35</Size>
+		</X>
+		<Y>
+			<Pos>0</Pos>
+			<Size>70</Size>
+		</Y>
+	</Placement>
+	<TransparentInput>false</TransparentInput>
+	<PickChildrenOnly>false</PickChildrenOnly>
+	<clipContent>false</clipContent>
+</WidgetPanel>

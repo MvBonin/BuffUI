@@ -1,0 +1,730 @@
+Global( "Locales", {
+
+----------------------------------------------
+--Russia
+----------------------------------------------
+	[ "rus" ] = {
+
+		[ "PVP" ] = {
+			["Áàëëàäà"]             = true,  -- Áàëëàäà
+			["Âñàäíèê"]             = true,  -- Ñèäèò íà ìàóíòå
+			["Íîêäàóí"]             = true,  -- Ñáèò ñ íîã
+			["Ñòğàõ"]               = true,  -- Ñòğàõ
+			["Îãëóøåíèå"]           = true,  -- Îãëóøåíèå
+			["Îñëåïëåíèå"]          = true,  -- Îñëåïëåíèå 1
+			["Íåìîòà"]              = true,  -- Âåäğî
+			["Ùèò ñâÿòîñòè"]        = true,  -- Áàáë
+			["Ñìåğòíîñòü"]          = true,  -- Ñìåğòíîñòü íåêğà
+			["Îáìàíóâøèé ñìåğòü"]   = true,  -- Îğåõ âàğà-áàğäà
+			["Ñëåïîòà"]             = true,  -- Îñëåïëåíèå 2
+			["Óñòğàøàşùèé êğèê"]    = true,  -- ÀÎÅ ñòğàõ âàğà
+			["Îòğàæåíèÿ"]           = true,  -- Èëëşçèè ìàãà
+			["Âîîäóøåâëåíèå"]       = true,  -- Äóäêà
+			["Âîñïëàìåíåíèå"]       = true,  -- Âîñïëàìåíåíèå
+			["Ïîäêğåïëåíèå"]        = true,  -- Áàô äîìèíèîíà
+			["Àóòîäàôå"]            = true,  -- Àóòîäàôå
+			["Áğåøü â áğîíå"]       = true,  -- Ãğîìîáîé 1
+			["Âûáèò èç ñåäëà"]      = true,  -- Ãğîìîáîé 2
+			["Óìèëåíèå"]            = true,  -- Ãëàäèò êîòà
+			["Ñîííàÿ ñòğåëà"]       = true,  -- Ñîíêà ëóêà
+			["Ìèğ Ïğèçğàêîâ"]       = true,  -- ÌÏ íåêğà
+			["Õğàáğîñòü"]           = true,  -- Àíòèôèğ ïàëà
+			["ßäîâèòûé ëàáèğèíò"]   = true,  -- Ñèäèò â èäàëåíå
+			["Íàâîä÷èê"]            = true,  -- Ïóøêà Äèêèé õóòîğ
+		},
+
+
+		[ "PVE" ] = {
+			["Âîîäóøåâëåíèå"]          = true,  -- Äóäêà
+			["Âñàäíèê"]                = true,  -- Ñèäèò íà ìàóíòå
+			["Ñèíõğîíèçàöèÿ"]          = true,  -- Ïèğàìèäà Òıïà  - Âûøèáàëà
+			["Ïåğåãğåâ"]               = true,  -- Ïèğàìèäà Òıïà  - Íèõèëü
+			["Áóğÿ êëèíêîâ"]           = true,  -- Ïèğàìèäà Òıïà  - Íèõèëü
+			["İëåêòğèçàöèÿ"]           = true,  -- Ïèğàìèäà Òıïà  - Ìîğîê
+			["Îñòàòî÷íûé çàğÿä"]       = true,  -- Ïèğàìèäà Òıïà  - Ìîğîê
+			["İíåğãåòè÷åñêèé ñãóñòîê"] = true,  -- Ïèğàìèäà Òıïà  - Ìîğîê
+			["Íåñòàáèëüíàÿ áîìáà"]     = true,  -- Ëàáèğèíò - Îñîáî Óâàæàåìûé Ãîáëèí
+			["Óäóøåíèå"]               = true,  -- Ìåğòâûé Ãîğîä - Òâåğäü - Òåíòàêëÿ
+			["Ãèáåëüíîå ïğîêëÿòüå"]    = true,  -- Ìåğòâûé Ãîğîä - Òâåğäü - Îòáğîñ
+			["Àñòğàëüíàÿ ïàíäåìèÿ"]    = true,  -- Ìåğòâûé Ãîğîä - Íàâü - Âèğóñ
+			["Âîñïëàìåíåíèå"]          = true,  -- Ìåğòâûé Ãîğîä - Âñïîëîõ
+			["Îñêîğáëåííûé"]           = true,  -- Ìåğòâûé Ãîğîä - Âåëèêèé Äğàêîí
+			["ßçûêè îãíÿ"]             = true,  -- Ìåğòâûé Ãîğîä - Âåëèêèé Äğàêîí
+			["Çîâ ì¸ğòâûõ"]            = true,  -- Ìåğòâûé Ãîğîä - Ôëàìğèíã
+			["Ïğîêëÿòèå ñëàáîñòè"]     = true,  -- Ìåğòâûé Ãîğîä - Íèõàç
+			["Áëàãîñëîâåíèå ñèëû"]     = true,  -- Ìåğòâûé Ãîğîä - Íèõàç
+			["Àóğà îãíÿ"]              = true,  -- Ìåğòâûé Ãîğîä - Íèõàç
+			["Ùèò"]                    = true,  -- Ìåğòâûé Ãîğîä - Íèõàç
+			["Î÷èùåíèå"]               = true,  -- Ìåğòâûé Ãîğîä - Íèõàç
+		},
+
+
+		[ "MOB" ] = {
+			["Ñóãğîá"]                = true,  -- Ñóãğîá ìàãà
+			["Ìåíòàëüíûé áëîê"]       = true,  -- Ãèïíîç ìèñòà
+			["Àóòîäàôå"]              = true,  -- Êîñòåğ ïàëà
+			["Ìèğ Ïğèçğàêîâ"]         = true,  -- ÌÏ íåêğà
+			["Óáàşêàí"]               = true,  -- Ïåñåíêà áàğäà
+			["Ñîííîå çåëüå"]          = true,  -- Ñîíêà äğóëÿ
+			["Íîêäàóí"]               = true,  -- Ñáèò ñ íîã
+			["Ñòğàõ"]                 = true,  -- Ñòğàõ
+			["Îãëóøåíèå"]             = true,  -- Îãëóøåíèå
+			["Îñëåïëåíèå"]            = true,  -- Îñëåïëåíèå true
+			["Íåìîòà"]                = true,  -- Âåäğî
+			["Ñëåïîòà"]               = true,  -- Îñëåïëåíèå 2
+			["Óñòğàøàşùèé êğèê"]      = true,  -- ÀÎÅ ñòğàõ âàğà
+			["Óìèëåíèå"]              = true,  -- Ãëàäèò êîòà
+			["Ñîííàÿ ñòğåëà"]         = true,  -- Ñîíêà ëóêà
+			["Ïñèõè÷åñêàÿ ñòîéêîñòü"] = true,  -- Èììóí îò ñòÿæêè
+			["Îêàìåíåíèå"]            = true,  -- Êîíòğîëü ëóêà
+			["Äóõ ñâîáîäû"]           = true,  -- Êîíòğîëü ëóêà
+			["Ìó÷åíèê"]           = true,  -- Êîíòğîëü ëóêà
+			["Ëèäåğ"]           = true,  -- Êîíòğîëü ëóêà
+		},
+		[ "ME" ] = {
+			["Áàëëàäà"]             = true,  -- Áàëëàäà
+			["Âñàäíèê"]             = true,  -- Ñèäèò íà ìàóíòå
+			["Íîêäàóí"]             = true,  -- Ñáèò ñ íîã
+			["Ñòğàõ"]               = true,  -- Ñòğàõ
+			["Îãëóøåíèå"]           = true,  -- Îãëóøåíèå
+			["Îñëåïëåíèå"]          = true,  -- Îñëåïëåíèå 1
+			["Íåìîòà"]              = true,  -- Âåäğî
+			["Ùèò ñâÿòîñòè"]        = true,  -- Áàáë
+			["Ñìåğòíîñòü"]          = true,  -- Ñìåğòíîñòü íåêğà
+			["Îáìàíóâøèé ñìåğòü"]   = true,  -- Îğåõ âàğà-áàğäà
+			["Ñëåïîòà"]             = true,  -- Îñëåïëåíèå 2
+			["Óñòğàøàşùèé êğèê"]    = true,  -- ÀÎÅ ñòğàõ âàğà
+			["Îòğàæåíèÿ"]           = true,  -- Èëëşçèè ìàãà
+			["Âîîäóøåâëåíèå"]       = true,  -- Äóäêà
+			["Âîñïëàìåíåíèå"]       = true,  -- Âîñïëàìåíåíèå
+			["Ïîäêğåïëåíèå"]        = true,  -- Áàô äîìèíèîíà
+			["Àóòîäàôå"]            = true,  -- Àóòîäàôå
+			["Áğåøü â áğîíå"]       = true,  -- Ãğîìîáîé 1
+			["Âûáèò èç ñåäëà"]      = true,  -- Ãğîìîáîé 2
+			["Óìèëåíèå"]            = true,  -- Ãëàäèò êîòà
+			["Ñîííàÿ ñòğåëà"]       = true,  -- Ñîíêà ëóêà
+			["Ìèğ Ïğèçğàêîâ"]       = true,  -- ÌÏ íåêğà
+			["Õğàáğîñòü"]           = true,  -- Àíòèôèğ ïàëà
+			["ßäîâèòûé ëàáèğèíò"]   = true,  -- Ñèäèò â èäàëåíå
+			["Íàâîä÷èê"]            = true,  -- Ïóøêà Äèêèé õóòîğ
+		},
+		[ "CD" ] = { --Add cooldowns here
+			["Áàëëàäà"]             = true,  -- Áàëëàäà
+			
+		},
+
+	},
+
+----------------------------------------------
+--Deutsch
+----------------------------------------------
+	[ "ger" ] = {
+
+--Buffs auf deinen Gegnern (Charaktere)
+		[ "PVP" ] = {
+			["Schütze"]                                = true,  -- Kanonier - Verlassener Bauernhof
+			["Beschwörungsfähigkeiten"]                = true,  -- Dominion - Beschwörungsbuff
+			["Giftiges Labyrinth"]                     = true,  -- Fähigkeit Idalene - Wegstellen
+			["Reiten"]                                 = true,  -- Reiten
+			["Verbeulte Rüstung"]                      = true,  -- Schutz durch Verstärkte Rüstung
+			["Abgeworfen"]                             = true,  -- Donnerschlag auch MK2
+			["Zu niedlich"]                            = true,  -- Fähigkeit Katze - Immunität
+			["Niederschlag"]                           = true,  -- Niederschag
+			["Aura der Angst"]                         = true,  -- Furcht
+			["Betäubt"]                                = true,  -- Betäubt
+			["Stille"]                                 = true,  -- Verstummung
+			["Betäubungspfeil"]                        = true,  -- Fähigkeit Späher
+			["Inbrunst"]                               = true,  -- Fähigkeit Barde und Späher
+			["Eingelullt"]                             = true,  -- Fähigkeit Barde
+			["Ballade"]                                = true,  -- Fähigkeit Barde
+			["Verzögerter Tod"]                        = true,  -- Fähigkeit Krieger und Barde
+			["Unnachgiebigkeit"]                       = true,  -- Fähigkeit Krieger
+			["Raserei"]                                = true,  -- Fähigkeit Krieger
+			["Angsteinflößender Schrei"]               = true,  -- Fähigkeit Krieger
+			["Entwaffnung"]                            = true,  -- Fähigkeit Beschwörer und Krieger
+			["Blutschild"]                             = true,  -- Fähigkeit Beschwörer
+			["Erschöpfte Unsterblichkeit"]             = true,  -- Fähigkeit Beschwörer
+			["Lähmende Plage"]                         = true,  -- Fähigkeit Beschwörer
+			["Autodafe"]                               = true,  -- Fähigkeit Paladin
+			["Frommer Zorn"]                           = true,  -- Fähigkeit Paladin
+			["Rache"]                                  = true,  -- Fähigkeit Paladin
+			["Geblendet"]                              = true,  -- Fähigkeit Paladin
+			["Erneuerte Courage"]                      = true,  -- Fähigkeit Paladin
+			["Ektoplasmatische Gestalt"]               = true,  -- Fähigkeit Psioniker
+			["Astralform"]                             = true,  -- Fähigkeit Psioniker
+			["Hypnose"]                                = true,  -- Fähigkeit Psioniker
+			["Eichenrinde"]                            = true,  -- Fähigkeit Behüter
+			["Bienenschwarm"]                          = true,  -- Fähigkeit Behüter
+			["Lethargietrank"]                         = true,  -- Fähigkeit Behüter
+			["Aqua Morte"]                             = true,  -- Fähigkeit Behüter
+			["Göttliche Voraussicht"]                  = true,  -- Fähigkeit Heiler
+			["Heiliger Schild"]                        = true,  -- Fähigkeit Heiler
+			["Fanatismus"]                             = true,  -- Fähigkeit Heiler
+			["Tensess' Schild"]                        = true,  -- Fähigkeit Heiler
+			["Glaubensgrenzen"]                        = true,  -- Fähigkeit Heiler
+			["Blinder Glaube"]                         = true,  -- Fähigkeit Heiler
+			["Meister der Illusion"]                   = true,  -- Fähigkeit Magier
+			["Astral-Ägide"]                           = true,  -- Fähigkeit Magier
+			["Steinwand"]                              = true,  -- Fähigkeit Magier
+			["Elementarschild"]                        = true,  -- Fähigkeit Magier
+			["Entflammung"]                            = true,  -- Fähigkeit Magier
+			["Eisfluss"]                               = true,  -- Fähigkeit Magier
+			["Steinbarriere"]                          = true,  -- Fähigkeit Magier
+			["Ketten aus Eis"]                         = true,  -- Fähigkeit Magier
+			["Feuerwand"]                              = true,  -- Fähigkeit Magier
+			["Eisiges Grab"]                           = true,  -- Fähigkeit Magier
+			["Zersetzung"]							   = true,	--Dämo
+			["Nervengift"]							   = true, -- Dämo
+			["Hacken"]									= true,
+			["Stirb langsam"]							= true,
+			["Verlangen nach Licht"]					= true,
+			["Verlangen nach Dunkelheit"]					= true,
+			["Langsam"]									=true,
+			["Niederschlagen"]							=true,
+			["Geistiger Wiederstand"]					=true,
+			["Giftschwäche"]							=true,
+			["Blutplage"]								=true,
+			["Ermutigung"]								=true,
+			["Todesschrei"]								=true,
+			["Reinigende Flamme"]						= true,
+			["Reinkarniert"]							=true,
+			["Verwesung"]							=true,
+			["Verurteilung"]							=true,
+			["Warten auf Vergeltung"]							=true,
+			["Herausgefordert"]							=true,	
+			["Geisteskontakt des Psionikers"]							=true,	
+			["Angeschlagene Nerven"]							=true,	
+			["Im Visier"]							=true,	
+			["Gnadenschuss"]							=true,	
+			["Brandpfeil"]							=true,
+			["Powerakkord"]							=true,	
+			["Abgesattelt"]							=true,	
+			["Verbeulte Rüstung"]						=true,	
+		},
+
+--Buffs auf deiner Gruppe/Raid
+		[ "PVE" ] = {
+			["Reiten"]                                 = true,  -- Reiten
+			["Inbrunst"]                               = true,  -- Fähigkeit Barde
+			["Synchronisation"]                        = true,  -- Teps Pyramide - Schläger
+			["Überhitzung"]                            = true,  -- Teps Pyramide - Nihil
+			["Klingenwirbelsturm"]                     = true,  -- Teps Pyramide - Nihil
+			["Machtkuppel"]                            = true,  -- Teps Pyramide - Nihil
+			["Restladung"]                             = true,  -- Teps Pyramide - Nihil
+			["Elektrisierung"]                         = true,  -- Teps Pyramide - Sihal
+			["Energiebündel"]                          = true,  -- Teps Pyramide - Sihal
+			["Instabile Bombe"]                        = true,  -- Labyrinth - Endboss 
+			["Strangulierung"]                         = true,  -- Totenstadt - Weltenzerstörer
+			["Tödlicher Fluch"]                        = true,  -- Totenstadt - Weltenzerstörer
+			["Dämonischer Fluch"]                      = true,  -- Totenstadt - Trash
+			["Astrale Pandemie"]                       = true,  -- Totenstadt - Nav
+			["Fluch der Stahlnadeln"]                  = true,  -- Totenstadt - Ath Zak
+			["Brennende Seele"]                        = true,  -- Totenstadt - Ath Zak
+			["Blutvergiftung"]                         = true,  -- Totenstadt - Ath Zak
+			["Mentale Instabilität"]                   = true,  -- Totenstadt - Ath Zak
+			["Entflammung"]                            = true,  -- Totenstadt - Sharlazz
+			["Ruf der Toten"]                          = true,  -- Totenstadt - Flammhar
+			["Flammenzungen"]                          = true,  -- Totenstadt - Drakan
+			["Fluch der Schwäche"]                     = true,  -- Totenstadt - Nihaz
+			["Segen der Macht"]                        = true,  -- Totenstadt - Nihaz
+			["Aura des Feuers"]                        = true,  -- Totenstadt - Nihaz
+			["Reinigen"]                               = true,  -- Totenstadt - Nihaz
+			["Schild"]                                 = true,  -- Totenstadt - Nihaz
+			["Dunkle Empathie"]							=true,
+			["Starke Antikörper"]						=true,
+			["Plage der Heilung"]						=true,
+			["Göttliche Voraussicht"] 					=true,
+			["Heiliger Schild"]                        = true,  -- Fähigkeit Heiler
+			["Todesschrei"]								=true,
+			["Ermutigung"]								=true,
+			["Reinkarniert"]							=true,
+			["Lichtkontakt"]							=true,
+			["Helfer aktiv"]							=true,
+
+
+		},
+
+--Buffs auf deinen Gegnern (Mobs)
+		[ "MOB" ] = {
+			["Niederschlag"]                           = true,  -- Niederschlag
+			["Aura der Angst"]                         = true,  -- Furcht
+			["Betäubt"]                                = true,  -- Betäubt
+			["Stille"]                                 = true,  -- Verstummung
+			["Geblendet"]                              = true,  -- Fähigkeit Paladin
+			["Blinder Glaube"]                         = true,  -- Fähigkeit Heiler
+			["Betäubungspfeil"]                        = true,  -- Fähigkeit Späher
+			["Eingelullt"]                             = true,  -- Fähigkeit Barde
+			["Angsteinflößender Schrei"]               = true,  -- Fähigkeit Krieger
+			["Entwaffnung"]                            = true,  -- Fähigkeit Beschwörer und Krieger
+			["Lahmende Plage"]                         = true,  -- Fähigkeit Beschwörer
+			["Hypnose"]                                = true,  -- Fähigkeit Psioniker
+			["Mentale Stabilität"]                     = true,  -- Fähigkeit Psioniker
+			["Geblendet"]                              = true,  -- Fähigkeit Paladin
+			["Autodafe"]                               = true,  -- Fähigkeit Paladin
+			["Lethargietrank"]                         = true,  -- Fähigkeit Behüter
+			["Bienenschwarm"]                          = true,  -- Fähigkeit Behüter
+			["Eisiges Grab"]                                = true,  -- Fähigkeit Magier
+			["Entflammung"]                            = true,  -- Fähigkeit Magier
+			["Eisfluss"]                               = true,  -- Fähigkeit Magier
+			["Ketten aus Eis"]                         = true,  -- Fähigkeit Magier
+			["Feuerwand"]                              = true,  -- Fähigkeit Magier
+			["Wanderndes Fieber"]						=true,
+			["Zersetzung"]							   = true,	--Dämo
+			["Nervengift"]							   = true, -- Dämo
+			["Hacken"]									= true,
+			["Langsam"]									=true,
+			["Niederschlagen"]							=true,
+			["Geistiger Wiederstand"]					=true,
+			["Giftschwäche"]							=true,
+			["Blutplage"]								=true,
+			["Todesschrei"]								=true,
+			["Reinigende Flamme"]						= true,
+			["Verwesung"]							=true,
+			["Verurteilung"]							=true,
+			["Warten auf Vergeltung"]							=true,
+			["Herausgefordert"]							=true,	
+			["Geisteskontakt des Psionikers"]							=true,	
+			["Angeschlagene Nerven"]							=true,	
+			["Im Visier"]							=true,	
+			["Gnadenschuss"]							=true,
+			["Brandpfeil"]							=true,
+			["Powerakkord"]							=true,		
+			
+		},
+		[ "ME" ] = { --auf mir
+			["Schütze"]                                = true,  -- Kanonier - Verlassener Bauernhof
+			["Beschwörungsfähigkeiten"]                = true,  -- Dominion - Beschwörungsbuff
+			["Giftiges Labyrinth"]                     = true,  -- Fähigkeit Idalene - Wegstellen
+			["Reiten"]                                 = true,  -- Reiten
+			["Verbeulte Rüstung"]                      = true,  -- Schutz durch Verstärkte Rüstung
+			["Abgeworfen"]                             = true,  -- Donnerschlag auch MK2
+			["Zu niedlich"]                            = true,  -- Fähigkeit Katze - Immunität
+			["Niederschlag"]                           = true,  -- Niederschag
+			["Aura der Angst"]                         = true,  -- Furcht
+			["Betäubt"]                                = true,  -- Betäubt
+			["Stille"]                                 = true,  -- Verstummung
+			["Betäubungspfeil"]                        = true,  -- Fähigkeit Späher
+			["Inbrunst"]                               = true,  -- Fähigkeit Barde und Späher
+			["Eingelullt"]                             = true,  -- Fähigkeit Barde
+			["Ermutigung"]                             = true,  -- Fähigkeit Barde
+			["Ballade"]                                = true,  -- Fähigkeit Barde
+			["Verzögerter Tod"]                        = true,  -- Fähigkeit Krieger und Barde
+			["Unnachgiebigkeit"]                       = true,  -- Fähigkeit Krieger
+			["Raserei"]                                = true,  -- Fähigkeit Krieger
+			["Angsteinflößender Schrei"]               = true,  -- Fähigkeit Krieger
+			["Entwaffnung"]                            = true,  -- Fähigkeit Beschwörer und Krieger
+			["Blutschild"]                             = true,  -- Fähigkeit Beschwörer
+			["Erschöpfte Unsterblichkeit"]             = true,  -- Fähigkeit Beschwörer
+			["Lähmende Plage"]                         = true,  -- Fähigkeit Beschwörer
+			["Autodafe"]                               = true,  -- Fähigkeit Paladin
+			["Frommer Zorn"]                           = true,  -- Fähigkeit Paladin
+			["Rache"]                                  = true,  -- Fähigkeit Paladin
+			["Geblendet"]                              = true,  -- Fähigkeit Paladin
+			["Erneuerte Courage"]                      = true,  -- Fähigkeit Paladin
+			["Ektoplasmatische Gestalt"]               = true,  -- Fähigkeit Psioniker
+			["Astralform"]                             = true,  -- Fähigkeit Psioniker
+			["Hypnose"]                                = true,  -- Fähigkeit Psioniker
+			["Eichenrinde"]                            = true,  -- Fähigkeit Behüter
+			["Bienenschwarm"]                          = true,  -- Fähigkeit Behüter
+			["Lethargietrank"]                         = true,  -- Fähigkeit Behüter
+			["Aqua Morte"]                             = true,  -- Fähigkeit Behüter
+			["Göttliche Voraussicht"]                  = true,  -- Fähigkeit Heiler
+			["Heiliger Schild"]                        = true,  -- Fähigkeit Heiler
+			["Fanatismus"]                             = true,  -- Fähigkeit Heiler
+			["Tensess' Schild"]                        = true,  -- Fähigkeit Heiler
+			["Glaubensgrenzen"]                        = true,  -- Fähigkeit Heiler
+			["Blinder Glaube"]                         = true,  -- Fähigkeit Heiler
+			["Meister der Illusion"]                   = true,  -- Fähigkeit Magier
+			["Astral-Ägide"]                           = true,  -- Fähigkeit Magier
+			["Steinwand"]                              = true,  -- Fähigkeit Magier
+			["Elementarschild"]                        = true,  -- Fähigkeit Magier
+			["Entflammung"]                            = true,  -- Fähigkeit Magier
+			["Eisfluss"]                               = true,  -- Fähigkeit Magier
+			["Steinbarriere"]                          = true,  -- Fähigkeit Magier
+			["Ketten aus Eis"]                         = true,  -- Fähigkeit Magier
+			["Feuerwand"]                              = true,  -- Fähigkeit Magier
+			["Eisiges Grab"]                           = true,  -- Fähigkeit Magier
+			["Zersetzung"]							   = true,	--Dämo
+			["Nervengift"]							   = true, -- Dämo
+			["Hacken"]									= true,
+			["Stirb langsam"]							= true,
+			["Verlangen nach Licht"]					= true,
+			["Verlangen nach Dunkelheit"]					= true,
+			["Langsam"]									=true,
+			["Niederschlagen"]							=true,
+			["Geistiger Wiederstand"]					=true,
+			["Giftschwäche"]							=true,
+			["Blutplage"]								=true,
+			["Ermutigung"]								=true,
+			["Todesschrei"]								=true,
+			["Reinigende Flamme"]						= true,
+			["Reinkarniert"]							=true,
+			["Verwesung"]							=true,
+			["Verurteilung"]							=true,
+			["Warten auf Vergeltung"]							=true,
+			["Herausgefordert"]							=true,	
+			["Geisteskontakt des Psionikers"]							=true,	
+			["Angeschlagene Nerven"]							=true,	
+			["Im Visier"]							=true,	
+			["Gnadenschuss"]							=true,	
+			["Brandpfeil"]							=true,
+			["Powerakkord"]							=true,	
+			["Abgesattelt"]							=true,	
+			["Verbeulte Rüstung"]						=true,	
+			["Synchronisation"]                        = true,  -- Teps Pyramide - Schläger
+			["Überhitzung"]                            = true,  -- Teps Pyramide - Nihil
+			["Klingenwirbelsturm"]                     = true,  -- Teps Pyramide - Nihil
+			["Machtkuppel"]                            = true,  -- Teps Pyramide - Nihil
+			["Restladung"]                             = true,  -- Teps Pyramide - Nihil
+			["Elektrisierung"]                         = true,  -- Teps Pyramide - Sihal
+			["Energiebündel"]                          = true,  -- Teps Pyramide - Sihal
+			["Instabile Bombe"]                        = true,  -- Labyrinth - Endboss 
+			["Strangulierung"]                         = true,  -- Totenstadt - Weltenzerstörer
+			["Tödlicher Fluch"]                        = true,  -- Totenstadt - Weltenzerstörer
+			["Dämonischer Fluch"]                      = true,  -- Totenstadt - Trash
+			["Astrale Pandemie"]                       = true,  -- Totenstadt - Nav
+			["Fluch der Stahlnadeln"]                  = true,  -- Totenstadt - Ath Zak
+			["Brennende Seele"]                        = true,  -- Totenstadt - Ath Zak
+			["Blutvergiftung"]                         = true,  -- Totenstadt - Ath Zak
+			["Mentale Instabilität"]                   = true,  -- Totenstadt - Ath Zak
+			["Entflammung"]                            = true,  -- Totenstadt - Sharlazz
+			["Ruf der Toten"]                          = true,  -- Totenstadt - Flammhar
+			["Flammenzungen"]                          = true,  -- Totenstadt - Drakan
+			["Fluch der Schwäche"]                     = true,  -- Totenstadt - Nihaz
+			["Segen der Macht"]                        = true,  -- Totenstadt - Nihaz
+			["Aura des Feuers"]                        = true,  -- Totenstadt - Nihaz
+			["Reinigen"]                               = true,  -- Totenstadt - Nihaz
+			["Schild"]                                 = true,  -- Totenstadt - Nihaz
+			["Dunkle Empathie"]							=true,
+			["Starke Antikörper"]						=true,
+			["Plage der Heilung"]						=true,
+			["Göttliche Voraussicht"] 					=true,
+			["Heiliger Schild"]                        = true,  -- Fähigkeit Heiler
+			["Aspekt des Segens"]						= true,
+			["Aspekt des Lichts"]						= true,
+			["Aspekt der Gnade"]						= true,
+			["FrÜhlingsgefÜhle"]							=true,
+			["Segnung"]                                = true, 
+			["Leitendes Knäuel"]                                = true, 
+			["Lithania"]									= true,
+			["Verlangen nach Dunkelheit"]				=true,
+			["Verlangen nach Licht"] 					=true,
+			["Sicherer Ort"] 					=true,
+			["Siegel der Gesundheit III"]									= true,
+			["Kanon des Lichts"]									= true,
+			["Kanon der Reinheit"]									= true,
+			["Umsichtiger Geist"]									= true,
+			["Geisterhafte Deckung"]									= true,
+			["Grausamkeit III"]								=true,
+			["Statische Aufladung"]									= true,
+			["Aufladung der Naturkraft"]									= true,
+			["Eichenrinde"]									=true,
+			["Kampfintuition"]							=true,
+			["Erneuerung"]								=true,
+			["Heilende Energie"]								=true,
+			["Kraft der Natur III"]								=true,
+			["Kraft der Natur II"]								=true,
+			["Kraft der Natur I"]								=true,
+			
+			
+		},
+		
+		[ "CD" ] = {
+			["Schnell wie der Blitz"]                       = true, 
+			["Segnung"]                              		= true, 
+			["Tensess' Schild"]                           	= true, 
+			["Heiliger Schild"]                           	= true, 
+			["Himmlischer Schlag"]							= true,
+			["Göttliche Voraussicht"]						= true,
+			["Heilige Wut"]									= true,
+			["Telekinetischer Sog"]									= true,
+			["Furcht"]									= true,
+			["Todesschrei"]									= true,
+			["Eismeteor"]									= true,
+			["Bannfluch"]									= true,
+			["Blenden"]									= true,
+			["Geisterhafte Deckung"]						= true,
+			["Pandemie"]									= true,
+			["Kreis der Heilung"]									= true,
+			["Schleier der Geschwindigkeit"]									= true,
+			["Größeres Geschenk des Märtyrers"]									= true,
+			["Größere Führung des Märtyrers"]									= true,
+			["Schutz des Märtyrers"]									= true,
+			["Rüge"]									= true,
+			["Meister der Illusion"]									= true,
+			["Elementarer Zorn"]									= true,
+			["Magische Taktiken"]									= true,
+			["Arkane Meisterschaft"]									= true,
+			["Elementarwoge"]									= true,
+			["Feierliches Gebet"]									= true,
+			["Geheiligter Sonnenaufgang"]									= true,
+			["Herausforderung"]									= true,
+			["Mysterium des Lichts"]									= true,
+			["Wort des Gerechten"]									= true,
+			["Autodafe"]									= true,
+			["Strahlendes Schwert"]									= true,
+			["Krähenfüße"]									= true,
+			["Pfeilregen"]									= true,
+			["Tesla-Pfeilschuss"]									= true,
+			["Doppelschuss"]									= true,
+			["Explosivschuss"]									= true,
+			["Astralkörper"]									= true,
+			["Entfesslungskünstler"]									= true,
+			["Rauchwolke"]									= true,
+			["Temporäre Beschleunigung"]									= true,
+			["Mentaler Einschlag"]									= true,
+			["Konzentration"]									= true,
+			["Zeitschleife"]									= true,
+			["Destabilisierung"]									= true,
+			["Klingenwand"]									= true,
+			["Vernichtender Schlag"]									= true,
+			["Adrenalinkick"]									= true,
+			["Qualvoller Schlag"]							=true,
+			["Ansturm"]									= true,
+			["Perfekter Schlag"]									= true,
+			["Beiß!"]									= true,
+			["Blitzschlag"]									= true,
+			["Eichenrinde"]									= true,
+			["Erneuerung"]									= true,
+			["Vortex"]									= true,
+			["Schnapp sie dir!"]									= true,
+			["Splitterbombe"]								=true,
+			
+		},
+
+	},
+
+
+[ "fra" ] = {
+
+--Buffs auf deinen Gegnern (Charaktere)
+		[ "PVP" ] = {
+			["Schütze"]                                = true,  -- Kanonier - Verlassener Bauernhof
+	
+		},
+
+--Buffs auf deiner Gruppe/Raid
+		[ "PVE" ] = {
+			["Reiten"]                                 = true,  -- Reiten
+
+
+		},
+
+--Buffs auf deinen Gegnern (Mobs)
+		[ "MOB" ] = {
+			["Niederschlag"]                           = true,  -- Niederschlag	
+			
+		},
+			[ "ME" ] = {
+			["Niederschlag"]                           = true,  -- Niederschlag	
+			
+		},
+			[ "CD" ] = { --Cooldown
+			["Niederschlag"]                           = true,  -- Niederschlag	
+			
+		},
+
+	},
+----------------------------------------------
+--English
+----------------------------------------------
+	[ "eng_eu" ] = {
+
+--Buffs on your enemies (characters)
+		[ "PVP" ] = {
+			["Gunner"]                                 = true,  -- Gunner - Desert Farm
+			["Summoning Abilities"]                	   = true,  -- Dominion - Summoning Ped Buff
+			["Noxious Labyrinth"]                      = true,  -- Ability Idalene
+			["Mounted"]                                = true,  -- Mounted
+			["Dented Armor"]                     	   = true,  -- Save because Reinforced Armor
+			["Dismounted"]                             = true,  -- Thunderstrike also MK2
+			["Sweetie"]                            	   = true,  -- Ability Cat
+			["Knock Down"]                             = true,  -- Knockdown
+			["Intense Fear"]                           = true,  -- Fear
+			["Stunned"]                                = true,  -- Stun
+			["Silence"]                                = true,  -- Silence
+			["Blindness"]				   = true,  -- Blind
+			["Tranquil Arrow"]                         = true,  -- Ability Scout
+			["Frevor"]                                 = true,  -- Ability Bard and Scout
+			["Lulled"]                                 = true,  -- Ability Bard
+			["Ballade"]                                = true,  -- Ability Bard
+			["Delayed Death"]                          = true,  -- Ability Warrior and Bard
+			["Battle Frenzy"]                          = true,  -- Ability Warrior
+			["Terrifying Shout"]                       = true,  -- Ability Warrior
+			["Stony Resilience"]                       = true,  -- Ability Warrior
+			["Shattering Strike"]                      = true,  -- Ability Summoner and Warrior
+			["Blood Aegis"]                            = true,  -- Ability Summoner
+			["Exhausted Immortality"]                  = true,  -- Ability Summoner
+			["Debilitating Plague"]                    = true,  -- Ability Summoner
+			["Autodafe"]                               = true,  -- Ability Paladin
+			["Pious Anger"]                            = true,  -- Ability Paladin
+			["Vengeance"]                              = true,  -- Ability Paladin
+			["Shining Sword"]                          = true,  -- Ability Paladin
+			["Renewed Courage"]                        = true,  -- Ability Paladin
+			["Ectoplasmatic Form"]                     = true,  -- Ability Psionicist
+			["Astral Body"]                            = true,  -- Ability Psionicist
+			["Hypnosis"]                               = true,  -- Ability Psionicist
+			["Bark Shield"]                            = true,  -- Ability Warden
+			["Bee Swarm"]                              = true,  -- Ability Warden
+			["Potion of Deathly Pall"]                 = true,  -- Ability Warden
+			["Aqua Morte"]                             = true,  -- Ability Warden
+			["Divine Foresight"]                  	   = true,  -- Ability Healer
+			["Holy Shield"]                            = true,  -- Ability Healer
+			["Fanatism"]                               = true,  -- Ability Healer
+			["Tensess' Shield"]                        = true,  -- Ability Healer
+			["Faith Boundaries"]                       = true,  -- Ability Healer
+			["Blind Faith"]                            = true,  -- Ability Healer
+			["Reflections"]                   	   = true,  -- Ability Mage
+			["Astral Aegis"]                           = true,  -- Ability Mage
+			["Stone Wall"]                             = true,  -- Ability Mage
+			["Elemental Shield"]                       = true,  -- Ability Mage
+			["Conflagrate"]                            = true,  -- Ability Mage
+			["Ice Flow"]                               = true,  -- Ability Mage
+			["Stone Barrier"]                          = true,  -- Ability Mage
+			["Chains of Ice"]                          = true,  -- Ability Mage
+			["Fire Wall"]                              = true,  -- Ability Mage
+			["Icy Grave"]                              = true,  -- Ability Mage
+		},
+
+--Buffs on your party/raid
+		[ "PVE" ] = {
+			["Fervor"]                 = true,  -- Fervor (Bard)
+			["Mounted"]                = true,  -- Mounted
+			["Synchronization"]        = true,  -- Tep Pyramid - Boss 1
+			["Overheating"]            = true,  -- Tep Pyramid - Boss 2
+			["Blade Hurricane"]        = true,  -- Tep Pyramid - Boss 2
+			["Electrization"]          = true,  -- Tep Pyramid - Boss 3
+			["Residual Charge"]        = true,  -- Tep Pyramid - Boss 3
+			["Energy Clump"]           = true,  -- Tep Pyramid - Boss 3
+			["Unstable Bomb"]          = true,  -- Stronghold (Last Boss)
+			["Strangulation"]          = true,  -- Dead City (Earth Shatterer)
+			["Fatal Curse"]            = true,  -- Dead City (Earth Shatterer)
+			["Astral Pandemic"]        = true,  -- Dead City (Nav)
+			["Inflammation"]           = true,  -- Dead City (Thunderhead)
+			["Taunted"]                = true,  -- Dead City (Great Dragon)
+			["Tongues of Flame"]       = true,  -- Dead City (Great Dragon)
+			["Call of the Dead"]       = true,  -- Dead City (Lickflame Tinderbox)
+			["Curse of Weakness"]      = true,  -- Dead City (Nihaz)
+			["Blessing of the Force"]  = true,  -- Dead City (Nihaz)
+			["Aura of Fire"]           = true,  -- Dead City (Nihaz)
+			["Shield"]                 = true,  -- Dead City (Nihaz)
+			["Purify"]                 = true,  -- Dead City (Nihaz)
+		},
+
+--Buffs on your enemies (mobs)
+		[ "MOB" ] = {
+			["Knock Down"]                             = true,  -- Knockdown
+			["Intense Fear"]                           = true,  -- Fear
+			["Stunned"]                                = true,  -- Stun
+			["Silence"]                                = true,  -- Silence
+			["Blindness"]				   = true,  -- Blind
+			["Tranquil Arrow"]                         = true,  -- Ability Scout
+			["Lulled"]                                 = true,  -- Ability Bard
+			["Terrifying Shout"]                       = true,  -- Ability Warrior
+			["Shattering Strike"]                      = true,  -- Ability Summoner and Warrior
+			["Debilitating Plague"]                    = true,  -- Ability Summoner
+			["Autodafe"]                               = true,  -- Ability Paladin
+			["Shining Sword"]                          = true,  -- Ability Paladin
+			["Hypnosis"]                               = true,  -- Ability Psionicist
+			["Bee Swarm"]                              = true,  -- Ability Warden
+			["Potion of Deathly Pall"]                 = true,  -- Ability Warden
+			["Blind Faith"]                            = true,  -- Ability Healer
+			["Ice Flow"]                               = true,  -- Ability Mage
+			["Chains of Ice"]                          = true,  -- Ability Mage
+			["Icy Grave"]                              = true,  -- Ability Mage
+			["Psychic Stability"]      		   = true,  -- Psychic Stability (Psionic)
+		},
+		--Buffs on your enemies (characters)
+		[ "ME" ] = {
+			["Gunner"]                                 = true,  -- Gunner - Desert Farm
+			["Summoning Abilities"]                	   = true,  -- Dominion - Summoning Ped Buff
+			["Noxious Labyrinth"]                      = true,  -- Ability Idalene
+			["Mounted"]                                = true,  -- Mounted
+			["Dented Armor"]                     	   = true,  -- Save because Reinforced Armor
+			["Dismounted"]                             = true,  -- Thunderstrike also MK2
+			["Sweetie"]                            	   = true,  -- Ability Cat
+			["Knock Down"]                             = true,  -- Knockdown
+			["Intense Fear"]                           = true,  -- Fear
+			["Stunned"]                                = true,  -- Stun
+			["Silence"]                                = true,  -- Silence
+			["Blindness"]				   = true,  -- Blind
+			["Tranquil Arrow"]                         = true,  -- Ability Scout
+			["Frevor"]                                 = true,  -- Ability Bard and Scout
+			["Lulled"]                                 = true,  -- Ability Bard
+			["Ballade"]                                = true,  -- Ability Bard
+			["Delayed Death"]                          = true,  -- Ability Warrior and Bard
+			["Battle Frenzy"]                          = true,  -- Ability Warrior
+			["Terrifying Shout"]                       = true,  -- Ability Warrior
+			["Stony Resilience"]                       = true,  -- Ability Warrior
+			["Shattering Strike"]                      = true,  -- Ability Summoner and Warrior
+			["Blood Aegis"]                            = true,  -- Ability Summoner
+			["Exhausted Immortality"]                  = true,  -- Ability Summoner
+			["Debilitating Plague"]                    = true,  -- Ability Summoner
+			["Autodafe"]                               = true,  -- Ability Paladin
+			["Pious Anger"]                            = true,  -- Ability Paladin
+			["Vengeance"]                              = true,  -- Ability Paladin
+			["Shining Sword"]                          = true,  -- Ability Paladin
+			["Renewed Courage"]                        = true,  -- Ability Paladin
+			["Ectoplasmatic Form"]                     = true,  -- Ability Psionicist
+			["Astral Body"]                            = true,  -- Ability Psionicist
+			["Hypnosis"]                               = true,  -- Ability Psionicist
+			["Bark Shield"]                            = true,  -- Ability Warden
+			["Bee Swarm"]                              = true,  -- Ability Warden
+			["Potion of Deathly Pall"]                 = true,  -- Ability Warden
+			["Aqua Morte"]                             = true,  -- Ability Warden
+			["Divine Foresight"]                  	   = true,  -- Ability Healer
+			["Holy Shield"]                            = true,  -- Ability Healer
+			["Fanatism"]                               = true,  -- Ability Healer
+			["Tensess' Shield"]                        = true,  -- Ability Healer
+			["Faith Boundaries"]                       = true,  -- Ability Healer
+			["Blind Faith"]                            = true,  -- Ability Healer
+			["Reflections"]                   	   = true,  -- Ability Mage
+			["Astral Aegis"]                           = true,  -- Ability Mage
+			["Stone Wall"]                             = true,  -- Ability Mage
+			["Elemental Shield"]                       = true,  -- Ability Mage
+			["Conflagrate"]                            = true,  -- Ability Mage
+			["Ice Flow"]                               = true,  -- Ability Mage
+			["Stone Barrier"]                          = true,  -- Ability Mage
+			["Chains of Ice"]                          = true,  -- Ability Mage
+			["Fire Wall"]                              = true,  -- Ability Mage
+			["Icy Grave"]                              = true,  -- Ability Mage
+			["Fervor"]                 = true,  -- Fervor (Bard)
+			["Mounted"]                = true,  -- Mounted
+			["Synchronization"]        = true,  -- Tep Pyramid - Boss 1
+			["Overheating"]            = true,  -- Tep Pyramid - Boss 2
+			["Blade Hurricane"]        = true,  -- Tep Pyramid - Boss 2
+			["Electrization"]          = true,  -- Tep Pyramid - Boss 3
+			["Residual Charge"]        = true,  -- Tep Pyramid - Boss 3
+			["Energy Clump"]           = true,  -- Tep Pyramid - Boss 3
+			["Unstable Bomb"]          = true,  -- Stronghold (Last Boss)
+			["Strangulation"]          = true,  -- Dead City (Earth Shatterer)
+			["Fatal Curse"]            = true,  -- Dead City (Earth Shatterer)
+			["Astral Pandemic"]        = true,  -- Dead City (Nav)
+			["Inflammation"]           = true,  -- Dead City (Thunderhead)
+			["Taunted"]                = true,  -- Dead City (Great Dragon)
+			["Tongues of Flame"]       = true,  -- Dead City (Great Dragon)
+			["Call of the Dead"]       = true,  -- Dead City (Lickflame Tinderbox)
+			["Curse of Weakness"]      = true,  -- Dead City (Nihaz)
+			["Blessing of the Force"]  = true,  -- Dead City (Nihaz)
+			["Aura of Fire"]           = true,  -- Dead City (Nihaz)
+			["Shield"]                 = true,  -- Dead City (Nihaz)
+			["Purify"]                 = true,  -- Dead City (Nihaz)
+		},
+		--Buffs on your enemies (characters)
+		[ "CD" ] = {
+			["Flash Lightning"]                                 = true,  -- warden
+			["Grab"]                                 = true,  -- warden
+			["Vortex"]                                 = true,  -- warden
+			["Shred"]                                 = true,  -- warden
+			["Wolfs strike"]                                 = true,  -- warden
+			["Intuitive Shot"]                                 = true,  --
+			["Double Shot"]                                 = true,  --			
+			["Somersault"]                                 = true,  --
+			["Tesla Arrow"]                                 = true,  --
+		},
+		
+
+	}
+
+})
+

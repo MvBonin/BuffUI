@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+  <Name>EditBtn5</Name>
+  <Priority>90</Priority>
+  <Placement>
+    <X>
+	<Align>WIDGET_ALIGN_LOW</Align>
+      <Size>115</Size>
+	   <Pos>0</Pos>
+    </X>
+    <Y>
+	<Align>WIDGET_ALIGN_LOW</Align>
+      <Size>30</Size>
+	  <Pos>0</Pos>
+    </Y>
+  </Placement>
+  <IgnoreDblClick>true</IgnoreDblClick>
+  <Variants>
+    <Item>
+	   <LayerHighlight href="EditBtnHighlighted.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+	   <PushedOffset x="-2" y="2" />
+		<StateNormal>
+			<LayerMain href="EditBtn.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+		</StateNormal>
+		<StatePushed>
+			<LayerMain href="EditBtn.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+		</StatePushed>
+		<ReactionOnUp>true</ReactionOnUp>
+		<Reaction>clicklistbtn</Reaction>
+    </Item>
+  </Variants>
+</WidgetButton>
